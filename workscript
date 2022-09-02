@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Настройка прав пользователя
+#----статус администратора
+#----добавление в группы
+
+#Удаление ненужных приложений
+sudo apt remove firefox
+sudo apt remove transsmision
+
+#Обновление системы
+sudo apt update
+sudo apt -y upgrade
+
+#Установка программ
+sudo apt -y install mc neofetch
+
+#Завершение установок и настройки системы
+sudo apt -y autoremove
+
