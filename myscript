@@ -9,17 +9,16 @@ sudo apt remove firefox
 
 #Добавление сторонних репозиториев:
 #Yandex-browser
-wget -q -O — https://repo.yandex.ru/yandex-browser/YANDEX-BROWSER-KEY.GPG | sudo apt-key add —
-echo deb [arch=amd64 signed-by=/usr/share/keyrings/yandex.gpg] http://repo.yandex.ru/yandex-browser/deb stable main | sudo tee /etc/apt/sources.list.d/yandex-stable.list
 #SublimeText
-
+#Skype
+#Zoom
 
 #Обновление системы
 sudo apt update
 sudo apt -y upgrade
 
 #Установка программ
-sudo apt -y install yandex-browser-stable
+#sudo apt -y install yandex-browser-stable
 sudo apt -y install mc neofetch git python3-pip planner
 pip3 install virtualenv
 
