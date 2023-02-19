@@ -4,9 +4,6 @@
 #----статус администратора
 #----добавление в группы
 
-#Удаление ненужных приложений
-sudo apt remove firefox
-
 #Добавление сторонних репозиториев:
 #Yandex-browser
 #SublimeText
@@ -18,13 +15,11 @@ sudo apt update
 sudo apt -y upgrade
 
 #Установка программ
-#sudo apt -y install yandex-browser-stable
-sudo apt -y install mc neofetch git python3-pip planner
+sudo apt -y install mc neofetch git python3-pip planner openvpn network-manager-openvpn-gnome
 pip3 install virtualenv
 
 #Настройка программ
 #----настройка git
-#----настройка sublimetext
 
 #Завершение установок и настройки системы
 sudo apt -y autoremove
