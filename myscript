@@ -15,8 +15,9 @@ sudo apt update
 sudo apt -y upgrade
 
 #Установка программ
-sudo apt -y install mc neofetch git python3-pip planner openvpn network-manager-openvpn-gnome
-pip3 install virtualenv
+sudo apt -y install mc neofetch git python3-pip planner openvpn \
+network-manager-openvpn-gnome pyqt5-dev-tools pyqt5-dev qttools5-dev-tools
+pip3 install virtualenv numpy
 
 #Настройка программ
 #----настройка git
